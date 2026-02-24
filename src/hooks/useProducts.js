@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from "react";
-import { fetchProducts } from "@/services/sheetsService";
+import { fetchProducts } from "../services/sheetsService";
 
 /**
  * useProducts — custom hook para cargar y filtrar productos.

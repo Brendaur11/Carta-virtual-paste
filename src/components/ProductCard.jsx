@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { ShoppingBag } from "lucide-react";
-import { WA_NUMBER, CATEGORY_META } from "@/data/products";
+import { WA_NUMBER, CATEGORY_META } from "../data/products";
 
 const waUrl = (nombre) =>
   `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(

@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 
-import { MainLayout }   from "@/layout/MainLayout";
-import HomePage         from "@/pages/HomePage";
-import CategoryPage     from "@/pages/CategoryPage";
-import ContactPage      from "@/pages/ContactPage";
+import { MainLayout }   from "./layout/MainLayout";
+import HomePage         from "./pages/HomePage";
+import CategoryPage     from "./pages/CategoryPage";
+import ContactPage      from "./pages/ContactPage";
 
 /**
  * App — entrada de la aplicación.
@@ -22,7 +22,6 @@ import ContactPage      from "@/pages/ContactPage";
 export default function App() {
   return (
     <HelmetProvider>
-      <BrowserRouter>
         <Routes>
           <Route element={<MainLayout />}>
             <Route index                 element={<HomePage />} />
@@ -32,7 +31,6 @@ export default function App() {
             <Route path="contacto"       element={<ContactPage />} />
           </Route>
         </Routes>
-      </BrowserRouter>
     </HelmetProvider>
   );
 }

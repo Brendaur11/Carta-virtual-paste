@@ -1,6 +1,6 @@
-import { useProducts } from "@/hooks/useProducts";
-import { ProductCard } from "@/components/ProductCard";
-import { SkeletonCard } from "@/components/SkeletonCard";
+import { useProducts } from "../hooks/useProducts";
+import { ProductCard } from "../components/ProductCard";
+import { SkeletonCard } from "../components/SkeletonCard";
 import { RefreshCw } from "lucide-react";
 
 function ErrorState({ message, onRetry }) {

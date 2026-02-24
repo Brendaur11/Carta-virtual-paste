@@ -1,4 +1,4 @@
-import { SHEET_URL, FALLBACK_PRODUCTS } from "@/data/products";
+import { SHEET_URL, FALLBACK_PRODUCTS } from "../data/products";
 
 /**
  * Transforma una fila cruda del sheet en un objeto producto tipado.

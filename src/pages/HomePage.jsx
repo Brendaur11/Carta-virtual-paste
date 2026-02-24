@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { motion } from "motion/react";
 import { Cake } from "lucide-react";
-import { ProductGrid } from "@/sections/ProductGrid";
+import { ProductGrid } from "../sections/ProductGrid";
 
 const CATEGORIES = [
   { path: "/tortas",       label: "🎂 Tortas"       },

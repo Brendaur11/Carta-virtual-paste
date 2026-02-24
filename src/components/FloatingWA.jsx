@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { WA_NUMBER } from "@/data/products";
+import { WA_NUMBER } from "../data/products";
 
 // SVG WhatsApp inline para evitar dependencias extra
 const WAIcon = () => (

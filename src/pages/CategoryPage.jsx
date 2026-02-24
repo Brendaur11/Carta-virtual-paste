@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { motion } from "motion/react";
-import { CATEGORY_META } from "@/data/products";
-import { ProductGrid } from "@/sections/ProductGrid";
+import { CATEGORY_META } from "../data/products";
+import { ProductGrid } from "../sections/ProductGrid";
 
 /**
  * CategoryPage — página genérica para una categoría de productos.

@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { BottomNav } from "./BottomNav";
-import { FloatingWA } from "@/components/FloatingWA";
+import { FloatingWA } from "../components/FloatingWA";
 
 /**
  * MainLayout

@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { motion } from "motion/react";
 import { Phone, Instagram, MapPin, Clock } from "lucide-react";
-import { WA_NUMBER } from "@/data/products";
+import { WA_NUMBER } from "../data/products";
 
 const WAIcon = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
