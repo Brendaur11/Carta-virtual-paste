@@ -1,0 +1,5 @@
+id,categoria,nombre,descripcion,precio,tamano,imagen
+1,tortas,Torta Red Velvet,"Húmedo bizcocho de terciopelo rojo con relleno de queso crema y cobertura aterciopelada.",12500,6 porciones,https://example.com/red-velvet.jpg
+2,tortas,Torta Naked de Frutos Rojos,"Capas de génoise vainilla con crema chantilly y frutos del bosque frescos.",14800,8 porciones,
+3,box-regalo,Box Dulce Amor,"Selección de 12 alfajores artesanales, 6 trufas y cookies de mantequilla marrón.",7800,18 unidades,
+4,individuales,Éclair de Café,"Masa choux crujiente con crema diplomática de café y glaseado brillante.",980,1 unidad,
